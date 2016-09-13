@@ -24,6 +24,9 @@ public class encryption {
         }
         return lmessage;
     }
+    private encryption(){
+
+    }
 
     private static String latin(String eword) {
         return eword.substring(1) + eword.substring(0, 1) + "ay";

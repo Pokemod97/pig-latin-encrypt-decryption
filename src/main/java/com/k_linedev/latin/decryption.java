@@ -23,6 +23,9 @@ public class decryption {
         return emessage;
     }
 
+    private decryption(){
+
+    }
     private static String english(String lword) {
         int length = lword.length();
         String eword = lword.substring(0, (length - 2));
